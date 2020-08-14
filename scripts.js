@@ -9,10 +9,20 @@ let computerChoice;
 let userScore = 0;
 let computerScore = 0;
 
+printRock = () => document.getElementById("outcome").innerHTML = "This is rock"
+printScissors = () => document.getElementById("outcome").innerHTML = "This is scissors"
+printPaper = () => document.getElementById("outcome").innerHTML = "This is paper"
+
+
+/*for(let i = 0;i<20;i++) {
+function game() {
+
+
 
 
 for(let i = 0;i<20;i++) {
 function game() {
+
 
 
 playerChoice = prompt("rock, paper or scissors?");
@@ -69,6 +79,8 @@ else if(computerScore == 5) {
 }
 else{
 
+
+
 }
 }
-}
+*/
