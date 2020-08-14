@@ -17,7 +17,14 @@ printPaper = () => document.getElementById("outcome").innerHTML = "This is paper
 /*for(let i = 0;i<20;i++) {
 function game() {
 
-// define player choice
+
+
+
+for(let i = 0;i<20;i++) {
+function game() {
+
+
+
 playerChoice = prompt("rock, paper or scissors?");
 randValue = Math.floor(Math.random()*3);
 computerChoice = (possibleChoices[randValue]);
@@ -72,10 +79,8 @@ else if(computerScore == 5) {
 }
 else{
 
-}
+
 
 }
 }
 */
-
-
